@@ -5,7 +5,7 @@ import DiplayDetails from '../components/DiplayDetails'
 
 export default function Index() {
     return (
-        <Box sx={{display:"block", textAlign:"center", mx:"40%",mt:30 }}>
+        <Box sx={{ textAlign:"center",mt:5 }}>
             <UserDetails/>
             <DiplayDetails/>
         </Box>
